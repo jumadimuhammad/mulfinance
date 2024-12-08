@@ -1,0 +1,9 @@
+filename: "{{.InterfaceName}}.go"
+dir: "mocks/"
+mockname: "{{.InterfaceName}}"
+outpkg: "{{.PackageName}}"
+inpackage: true
+packages:
+  mulfinance/pkg/limit/ports:
+    config:
+      all: true
